@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Axios from 'axios';
 import { useEffect, useState } from 'react';
+import ApiAgeGeuss from './agify';
 
 function App() {
 
@@ -18,7 +19,7 @@ function App() {
 
   const fetchFact = () => {
     Axios.get("https://catfact.ninja/fact").then((res) =>{
-    console.log(res.data)
+    // console.log(res.data)
     setCatFact(res.data.fact);
   });
     
@@ -36,6 +37,11 @@ function App() {
       
       <button onClick={fetchFact}>Fetch Data</button>
       <p>{catFact}</p>
+
+
+      <ApiAgeGeuss />
+      
+      
 
 
 
