@@ -3,6 +3,7 @@ import './App.css';
 import Axios from 'axios';
 import { useEffect, useState } from 'react';
 import ApiAgeGeuss from './agify';
+import ExcuseGenerator from './excuse generator';
 
 function App() {
 
@@ -40,6 +41,8 @@ function App() {
 
 
       <ApiAgeGeuss />
+
+      <ExcuseGenerator />
       
       
 
