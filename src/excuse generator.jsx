@@ -10,31 +10,7 @@ function ExcuseGenerator () {
 
     // https://excuser-three.vercel.app/v1/excuse/party
 
-    // const [excuse , setExcuse] = useState("");
-    // const [party , setParty] = useState("");
-    // const [family , setFamily] = useState("");
-    // const [office , setOffice] = useState("");
-
-
-    // const fetchParty = () => {
-    //     axios.get(`https://excuser-three.vercel.app/v1/excuse/${party}`).then((res) =>{
-    //         console.log(res.data.excuse)
-    //         setExcuse(res.data.excuse)
-    //     })
-    // }
-    // const fetchFamily = () => {
-    //     axios.get(`https://excuser-three.vercel.app/v1/excuse/${family}`).then((res) =>{
-    //         console.log(res.data.excuse)
-    //         setExcuse(res.data.excuse)
-    //     })
-    // }
-    // const fetchOffice = () => {
-    //     axios.get(`https://excuser-three.vercel.app/v1/excuse/${office}`).then((res) =>{
-    //         console.log(res.data.excuse)
-    //         setExcuse(res.data.excuse)
-    //     })
-    // }
-
+    
     const [generateExcuse , setGenerateExcuse] = useState ("")
 
     const fetchExcuse = (excuse) => {
